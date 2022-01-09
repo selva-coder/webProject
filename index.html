@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <div class="index-main">
+            <div class="index-img">
+                <img src="https://cdn.leitesculinaria.com/wp-content/uploads/2015/06/whole-grilled-chicken.jpg.optimal.jpg" alt="">
+            </div>
+            <div class="login-signup-section">
+                <input class="right-btn" id="add_restaurant" type="button" value="Add restaurant">
+                <form id="login_form_id" action="" class="form">
+                    <h1>Login</h1>
+                    <input class="input-text" type="email" placeholder="Email">
+                    <input class="input-text" type="password" name="password_login" id="password_login" placeholder="Password">
+                    <input class="color1-btn" type="submit" name="Login" value="Login">
+                    <br>
+                    <div class="forgot-create">
+                        <a id="forgot_password">Forgot Password?</a>or
+                        <a id="create_an_account">Create an Account</a>
+                    </div>
+                </form>
+
+                <form id="signup_form_id" action="" class="form">
+                    
+                    <h1> <a href="" class="back_btn"><</a> Sign Up</h1>
+                    <input class="input-text" type="text" name="name" id="name" placeholder="Name">
+                    <input class="input-text" type="number" name="phonenumber" id="phonenumber" placeholder="Phone Number">
+                    <input class="input-text" type="email" placeholder="Email" name="email_signup">
+                    <input class="input-text" type="password" name="password_signup" id="password_signup" placeholder="Password">
+                    <input class="input-text" type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm Password">
+                    <input class="color1-btn" type="submit" name="Signup" value="Sign Up">
+                </form>
+
+                <form id="add_restaurant_form_id" action="" class="form">
+                    <h1> <a href="" class="back_btn"><</a> Add restaurant</h1>
+                    <input class="input-text" type="text" name="shopName" id="shopName" placeholder="Shop Name">
+                    <input class="input-text" type="text" name="ownerName" id="ownerName" placeholder="Owner Name">
+                    <input class="input-text" type="number" name="mobileNumber" id="mobileNumber" placeholder="Mobile Number">
+                    <input class="input-text" type="email" name="email" id="email" placeholder="Email">
+                    <input class="input-text" type="password" name="password_add_restaurant" id="password_add_restaurant" placeholder="Password">
+                    <input class="input-text" type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                    
+                    <div class="checkboxes">
+                        <div class="checkbox">
+                            <input type="checkbox" name="breakfast" id="breakfast" value="breakfast">
+                            <label for="breakfast">Breakfast</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="lunch" id="lunch" value="lunch">
+                            <label for="lunch">Lunch</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="dinner" id="dinner" value="dinner">
+                            <label for="dinner">Dinner</label>
+                        </div>
+                    </div>
+
+                    <input class="color1-btn" type="submit" value="Register">
+                </form>          
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
