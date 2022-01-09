@@ -1,0 +1,220 @@
+*{
+    font-family: 'verdana';
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.index-main
+{
+    height: 100%;
+    display: flex;
+}
+.index-img
+{
+    background-size: cover;
+    width: 50%;
+}
+.index-img img
+{
+    height: 100%;
+}
+.login-signup-section
+{
+    text-align: center;
+    width: 50%;
+    background-color: #cdf7e5;
+}
+.form
+{
+    position: relative;
+    top: 25%;
+}
+.forgot-create
+{
+    width: 90%;
+    margin: 20px 10px 20px 10px;
+    padding-bottom: 20px;
+}
+#forgot_password, #create_an_account {
+    cursor: pointer;
+    border-bottom: 1px solid #41B3A3;
+}
+input[type='email'],input[type='password'],input[type='text'],input[type='number']
+{
+    width: 90%;
+}
+.checkbox{
+    margin-left: 5px;
+    padding: 10px;
+    width: 30%;
+    
+}
+.checkboxes
+{
+    
+    display: flex;
+}
+input[type='submit']
+{
+    margin: 2.5px;
+    width: 90%;
+}
+.right-btn
+{
+    float: right;
+    padding: 10px 20px ;
+    color: white;
+    background-color: #41B3A3;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+.input-text
+{
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    margin: 2.5px;
+    border: 1px solid lightgray;
+}
+.color1-btn
+{
+    cursor: pointer;
+    background-color: #41B3A3;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+
+.nav-bar{
+    width: 100%;
+    float: right;
+    background-color: #41B3A3;
+}
+.nav-bar ul
+{
+    padding: 10px 20px;
+    float: right;
+    display: flex;
+}
+.nav-bar ul li
+{
+    
+    list-style-type: none;
+}
+#select
+{
+    background-color: white;
+    color: #41B3A3;
+    font-weight: bold;
+}
+.nav-bar ul li a{
+    
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.nav-bar ul li a:hover
+{
+    background-color: white;
+    color: #41B3A3;
+    font-weight: bold;
+}
+
+.myaccount-form{
+    width: 70%;
+    padding-top: 5%;
+    margin: auto;
+}
+.food{
+    text-align: center;
+    width: 15%;
+    background-color: rgb(230, 230, 230);
+}
+.count
+{
+    display: flex;
+}
+.count-btn{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #41B3A3;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.food img{
+    width: 150px;
+}
+.buy-btns{
+    display: flex;
+}
+.count-no{
+    text-align: center;
+    width: 40%;
+}
+#buybtns{
+    border: 1px solid rgb(243, 243, 243);
+    margin-top: 5px;
+    width: 50%;
+    font-size: 0.7rem;
+}
+.breakfast > div
+{
+    display: inline-block;
+}
+
+#signup_form_id
+{
+    display: none;
+}
+#add_restaurant_form_id
+{
+    display: none;
+}
+.back_btn
+{
+    background-color: #41B3A3;
+    font-size: 1rem;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+@media only screen and (max-width: 400px) 
+{
+    .form
+    {
+        top: 10%;
+    }
+    .index-img
+    {
+        width: 0%;
+    }
+    .index-img img
+    {
+        display: none;
+    }
+    .login-signup-section
+    {
+        text-align: center;
+        width: 100%;
+        background-color: #cdf7e5;
+    }
+    input[type='email'],input[type='password']
+    {
+        width: 90%;
+    }
+    .food{
+        width: 45%;
+    }
+}
